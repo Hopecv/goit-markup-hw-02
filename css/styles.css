@@ -1,0 +1,17 @@
+body{
+    font-family: 'Roboto', sans-serif; ;
+}
+/*  змінні */
+:root{
+    --text-color: NAVY BLUE;
+--background-color:#F4F4FD;
+}
+.main-text {
+    color:#FFFFFF ;
+    font-size: 56px;
+}
+.frame-button {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+}
