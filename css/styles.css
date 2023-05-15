@@ -4,6 +4,7 @@ body {
 /*  змінні */
 :root {
   --text-color: NAVY BLUE;
+  --text-color-2: #2E2F42;
   --background-color: #f4f4fd;
   --backgrcolor: #ffffff;
 }
@@ -19,7 +20,7 @@ body {
   text-transform: uppercase;
 }
 .logo-studio{
-    color: #2E2F42;
+    color: var(--text-color-2);
 }
 .list{
     list-style: none;
