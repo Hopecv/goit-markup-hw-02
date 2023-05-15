@@ -5,6 +5,8 @@ body{
 :root{
     --text-color: NAVY BLUE;
 --background-color:#F4F4FD;
+--backgrcolor: #FFFFFF;
+
 }
 .main-text {
     color:#FFFFFF ;
