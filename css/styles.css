@@ -1,19 +1,36 @@
-body{
-    font-family: 'Roboto', sans-serif; ;
+body {
+  font-family: "Roboto", sans-serif;
 }
 /*  змінні */
-:root{
-    --text-color: NAVY BLUE;
---background-color:#F4F4FD;
---backgrcolor: #FFFFFF;
-
+:root {
+  --text-color: NAVY BLUE;
+  --background-color: #f4f4fd;
+  --backgrcolor: #ffffff;
 }
+/* header */
+.logo {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-studio{
+    color: #2E2F42;
+}
+.list{
+    list-style: none;
+}
+/* main */
 .main-text {
-    color:#FFFFFF ;
-    font-size: 56px;
+  color: #ffffff;
+  font-size: 56px;
 }
 .frame-button {
-    background-color: #2E2F42;
-    width: 1440px;
-    height: 600px;
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
 }
