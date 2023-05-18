@@ -4,6 +4,7 @@
   --backgr-color: #ffffff;
   --t-color--: #4d5ae5;
   --color--: #2e2f42;
+  --too-color--:#F4F4FD;
 }
 /* шапка сайта */
 .link {
@@ -141,3 +142,20 @@
 .studioi{
     color: #f4f4fd;
 }
+/* portfolio */
+/* основна частина */
+.button-portf{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--t-color--);
+    background-color: var(--too-color--);
+    cursor: pointer
+    }
+    .button-portf:hover,
+    .button-portf:focus{
+        color: var(--backgr-color);
+        background-color: #404BBF ;
+    }
