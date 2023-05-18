@@ -46,7 +46,7 @@ line-height:1.5;
 /* наша команда */
 /* 4 клас */
 .our-team{
-  background-color: #F4F4FD;
+  background-color: var(--background-color)
 }
 .header-sec{
   font-size: 36px;
