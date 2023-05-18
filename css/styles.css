@@ -54,17 +54,18 @@ line-height:1.5;
   text-align: center;
 }
 /* наша команда */
+/* 4 клас */
 .our-team{
-  background-color: #f4f4fd;
+  background-color: #F4F4FD;
 }
 .header-sec{
-  color: var(--text-color-2);
   font-size: 36px;
-  text-align: center;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
+  color: var(--text-color-2);
+  }
 .list-last-sec{
 list-style: none;
 }
