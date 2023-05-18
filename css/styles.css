@@ -10,7 +10,7 @@
   text-decoration: none;
 }
 .web {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--t-color--);
@@ -27,8 +27,8 @@
   list-style: none;
 }
 .list-it:hover,
-.list-it:focus{
-    color: #404bbf;
+.list-it:focus {
+  color: #404bbf;
 }
 .list-it {
   font-weight: 500;
@@ -37,12 +37,12 @@
   letter-spacing: 0.02em;
   color: var(--color--);
 }
-.addss{
-    font-style: normal;
+.addss {
+  font-style: normal;
 }
 .address:hover,
-.address:focus{
-    color: #404bbf;
+.address:focus {
+  color: #404bbf;
 }
 .address {
   text-decoration: none;
@@ -95,7 +95,7 @@
   color: var(--text-color);
 }
 /* що ми робимо */
-.header-four{
+.header-four {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -107,6 +107,9 @@
 /* наша команда */
 .team {
   background-color: #f4f4fd;
+}
+.four-list {
+  background-color: var(--backgr-color);
 }
 .name {
   font-weight: 500;
@@ -123,6 +126,7 @@
   line-height: 1.5;
   color: var(--text-color);
   background-color: var(--backgr-color);
+  letter-spacing: 0.02em;
 }
 /*  низ*/
 .bott {
@@ -135,16 +139,16 @@
   letter-spacing: 0.02em;
 }
 .webi {
-    font-family: "Raleway", sans-serif;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--t-color--);
-    font-weight: 800;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 1.17;
-  }
-  .studioi {
-    font-family: "Raleway";
-    color: var(--color--);
-  }
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--t-color--);
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.17;
+}
+.studioi {
+  font-family: "Raleway";
+  color: var(--color--);
+}
