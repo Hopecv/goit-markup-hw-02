@@ -6,11 +6,11 @@
   --color--: #2e2f42;
 }
 /* шапка сайта */
-.link{
-    text-decoration: none;
+.link {
+  text-decoration: none;
 }
 .web {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--t-color--);
@@ -20,11 +20,11 @@
   line-height: 1.17;
 }
 .studio {
-    font-family: 'Raleway';
+  font-family: "Raleway";
   color: var(--color--);
 }
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
 .list-it {
   font-weight: 500;
@@ -53,11 +53,11 @@
   text-align: center;
 }
 .button-first:hover,
-.button-first:focus{
-    background-color: #404BBF;
+.button-first:focus {
+  background-color: #404bbf;
 }
 .button-first {
-    font-family: inherit;
+  font-family: inherit;
   background-color: var(--t-color--);
   color: var(--backgr-color);
   font-weight: 500;
@@ -117,14 +117,13 @@
 .bott {
   background-color: var(--color--);
 }
-.studio-bot{
-    font-family: 'Raleway';
-    color: #F4F4FD;
+.studio-bot {
+  font-family: "Raleway";
+  color: #f4f4fd;
 }
-.boot-p{
-    font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-
+.boot-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
