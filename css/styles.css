@@ -40,6 +40,10 @@
 .addss{
     font-style: normal;
 }
+.address:hover,
+.address:focus{
+    color: #404bbf;
+}
 .address {
   text-decoration: none;
   font-weight: 400;
