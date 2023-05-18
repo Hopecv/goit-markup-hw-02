@@ -57,7 +57,7 @@
     background-color: #404BBF;
 }
 .button-first {
-    font-family: Roboto: sans-serif;
+    font-family: inherit;
   background-color: var(--t-color--);
   color: var(--backgr-color);
   font-weight: 500;
