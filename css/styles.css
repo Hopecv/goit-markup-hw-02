@@ -52,8 +52,12 @@
   letter-spacing: 0.02em;
   text-align: center;
 }
+.button-first:hover,
+.button-first:focus{
+    background-color: #404BBF;
+}
 .button-first {
-    font-family: 'Roboto': sans-serif;
+    font-family: Roboto: sans-serif;
   background-color: var(--t-color--);
   color: var(--backgr-color);
   font-weight: 500;
