@@ -6,8 +6,11 @@
   --color--: #2e2f42;
 }
 /* шапка сайта */
+.link{
+    text-decoration: none;
+}
 .web {
-  font-family: "Raleway":sans-serif;
+  font-family: 'Raleway': sans-serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--t-color--);
