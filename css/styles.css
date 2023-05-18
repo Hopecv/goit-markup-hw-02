@@ -79,8 +79,7 @@
   cursor: pointer;
 }
 /* наші принципи */
-.header-sec {
-}
+
 .header-third {
   color: var(--color--);
   font-weight: 500;
@@ -96,7 +95,7 @@
   color: var(--text-color);
 }
 /* що ми робимо */
-.header-four {
+ader-sec{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
