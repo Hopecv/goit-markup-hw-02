@@ -7,7 +7,9 @@
 }
 /* шапка сайта */
 .web {
-  font-family: "Raleway";
+  font-family: "Raleway":sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--t-color--);
   font-weight: 800;
   text-decoration: none;
@@ -18,8 +20,10 @@
     font-family: 'Raleway';
   color: var(--color--);
 }
+.list{
+    list-style: none;
+}
 .list-it {
-  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
