@@ -91,6 +91,7 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color--);
+  text-align: center;
 }
 /* наша команда */
 .team {
