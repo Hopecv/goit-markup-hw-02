@@ -1,8 +1,3 @@
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: var(--backgrcolor);
-  color:#434455;
-}
 /*  змінні */
 :root {
   --text-color: #434455;
