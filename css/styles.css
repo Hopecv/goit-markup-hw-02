@@ -1,107 +1,115 @@
-body{
-  color: var(--text-color);
-}
-
-/*  змінні */
+/* змінні */
 :root {
   --text-color: #434455;
-  --text-color-2: #2E2F42;
-  --text-color-3: #4d5ae5;
-  --background-color: #f4f4fd;
-  --backgrcolor: #ffffff;
+  --backgr-color: #ffffff;
+  --t-color--: #4d5ae5;
+  --color--: #2e2f42;
 }
-/* header */
-.web{
-
+/* шапка сайта */
+.web {
+  font-family: "Raleway";
+  color: var(--t-color--);
+  font-weight: 800;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.17;
 }
-.studio{
- color: var(--text-color-2); 
+.studio {
+    font-family: 'Raleway';
+  color: var(--color--);
 }
-/* кнопка */
-.main-text {
-  color: #ffffff;
-  font-size: 56px;
-}
-.frame-button {
-  background-color: #2e2f42;
-}
-.button-main{
-    font-family: 'Roboto';
-    background: #4D5AE5;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height:1.5;
-}
-/* наші принципи */
-.list-princ {
-    
-}
-.list-text-item {
-    
-}
-/* Що ми робимо */
-.header-sec{
-  color: var(--text-color-2);
-  font-weight: 700;
-  font-size: 36px;
-  text-align: center;
-}
-/* наша команда */
-/* 4 клас */
-.our-team{
-  background-color: var(--background-color)
-}
-.header-sec{
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--text-color-2);
-  }
-.list-last-sec{
-list-style: none;
-}
-.list-last-item{
-  background-color: #ffffff;
-}
-.name{
-  color: var(--text-color-2);
-  font-weight: 700;
-  font-size: 20px;
-}
-.work{
-  color: var(--text-color);
-  font-weight: 400;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  text-align: center;
-  line-height: 1.5;
-}
-/* низ */
-.fot-frame{
-  background-color: var(--text-color-2);
-  }
-.fot{
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #F4F4FD;
-}
-/* portfolio sheet */
-/*  основна частина секція */
-.buttons{
-  list-style: none;
-}
-.button-portf{
-  font-family: "Roboto", sans-serif;
+.list-it {
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+/* кнопка */
+.first-sec {
+  background-color: var(--color--);
+}
+.header-first {
+  color: var(--backgr-color);
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.button-first {
+  background-color: var(--t-color--);
+  color: var(--backgr-color);
+  font-weight: 500;
+  font-size: 16px;
   letter-spacing: 0.04em;
-  color: var(--text-color-3);
-  background-color: var(#f4f4fd);
+  line-height: 1.5;
+}
+/* наші принципи */
+.header-sec {
+}
+.header-third {
+  color: var(--color--);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.third-h {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+/* що ми робимо */
+.header-four {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color--);
+}
+/* наша команда */
+.team {
+  background-color: #f4f4fd;
+}
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color--);
+  background-color: var(--backgr-color);
+}
+.job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: var(--backgr-color);
+}
+/*  низ*/
+.bott {
+  background-color: var(--color--);
+}
+.studio-bot{
+    font-family: 'Raleway';
+    color: #F4F4FD;
+}
+.boot-p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+
 }

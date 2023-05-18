@@ -1,83 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="/css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
-    <title>WebStudio</title>
+    <title>WebStud</title>
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700;800&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
   </head>
-  <body
-    style="
-      font-family: 'Roboto', sans-serif;
-     color: var(--text-color);
-      background-color: var(--backgrcolor);
-    "
-  >
+  <body style="font-family: 'Roboto', sans-serif;
+  color: var(--text-color); background-color: var(--backgr-color);">
     <!-- Шапка сайта -->
     <header>
       <nav>
-        <a class="logo" href="./index.html"
-          >Web<span class="logo-studio">Studio</span></a
-        >
+        <a class="web" href="./index.html">Web<span class="studio">Studio</span></a>
 
-        <ul class="list">
-          <li><a href="./index.html">Studio </a></li>
-          <li><a href="/portfolio.html">Portfolio </a></li>
-          <li><a href="">Contacts </a></li>
+        <ul> 
+          <li ><a class="list-it"href="./index.html">Studio </a></li>
+          <li ><a class="list-it" href="./portfolio.html">Portfolio </a></li>
+          <li ><a class="list-it" href="">Contacts </a></li>
         </ul>
       </nav>
       <address>
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com </a>
+            <a class="address" href="mailto:info@devstudio.com">info@devstudio.com </a>
           </li>
           <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="address" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
     </header>
     <main>
       <!-- Кнопка -->
-      <section class="frame-button">
-        <h1 class="main-text">Effective Solutions for Your Business</h1>
-        <button class="button-main" type="button">Order Service</button>
+      <section class="first-sec">
+        <h1 class="header-first">Effective Solutions for Your Business</h1>
+        <button class="button-first" type="button">Order Service</button>
       </section>
       <!-- Наші принципи -->
-      <section class="list-pninc">
-        <h2 hidden>Our prin</h2>
-        <ul class="list-text">
-          <li class="list-text-item">
-            <h3 class="list-item-top">Strategy</h3>
-            <p class="list-item-bott">
+      <section>
+        <h2 hidden class="header-sec" >Our prin</h2>
+        <ul>
+          <li>
+            <h3 class="header-third" >Strategy</h3>
+            <p class="third-h">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li class="list-text-item">
-            <h3 class="list-item-top">Punctuality</h3>
-            <p class="list-item-bott">
+          <li>
+            <h3 class="header-third">Punctuality</h3>
+            <p class="third-h">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li class="list-text-item">
-            <h3 class="list-item-top">Diligence</h3>
-            <p class="list-item-bott">
+          <li>
+            <h3 class="header-third">Diligence</h3>
+            <p class="third-h">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li class="list-text-item">
-            <h3 class="list-item-top">Technologies</h3>
-            <p class="list-item-bott">
+          <li>
+            <h3 class="header-third">Technologies</h3>
+            <p class="third-h">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -87,36 +80,36 @@
 
       <!-- Що ми робимо -->
       <section>
-        <h2 class="header-sect">What are we doing</h2>
+        <h2 class="header-four">What are we doing</h2>
         <ul>
           <li>
-            <img src="./images/ps.jpg" alt="Програми для ПК" width="360" />
+            <img src="./images/ps.jpg" alt="Apps for pc" width="360" />
           </li>
-          <li><img src="./images/app.jpg" alt="Аплікації" width="360" /></li>
+          <li><img src="./images/app.jpg" alt="Apps" width="360" /></li>
           <li>
-            <img src="./images/phone.jpg" alt="Програми для тел" width="360" />
+            <img src="./images/phone.jpg" alt="Apps for phone" width="360" />
           </li>
         </ul>
       </section>
 
       <!-- Наша команда -->
 
-      <section class="our-team">
-        <h2 class="header-sec">Our Team</h2>
-        <ul class="list-last-sec">
-          <li class="list-last-item">
+      <section class="team" >
+        <h2>Our Team</h2>
+        <ul>
+          <li>
             <img
               src="./images/mark-guerrero.jpg"
               alt="Mark Guerrero"
               width="264"
             />
             <h3 class="name">Mark Guerrero</h3>
-            <p class="work">Product Designer</p>
+            <p class="job">Product Designer</p>
           </li>
           <li>
             <img src="./images/tom-ford.jpg" alt="Tom Ford" width="264" />
             <h3 class="name">Tom Ford</h3>
-            <p class="work">Frontend Developer</p>
+            <p class="job">Frontend Developer</p>
           </li>
 
           <li>
@@ -126,7 +119,7 @@
               width="264"
             />
             <h3 class="name">Camila Garcia</h3>
-            <p class="work">Marketing</p>
+            <p class="job">Marketing</p>
           </li>
 
           <li>
@@ -136,15 +129,15 @@
               width="264"
             />
             <h3 class="name">Daniel Wilson</h3>
-            <p class="work">UI Designer</p>
+            <p class="job">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <!-- Низ -->
-    <footer class="fot-frame">
-      <a href="./index.html">WebStudio</a>
-      <p class="fot">
+    <footer class="bott">
+      <a class="web" href="./index.html">Web <span class="studio-bot">Studio</span></a>
+      <p class="boot-p">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
