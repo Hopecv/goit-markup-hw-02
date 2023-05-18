@@ -2,6 +2,7 @@
 :root {
   --text-color: #434455;
   --text-color-2: #2E2F42;
+  --text-color-3: #4d5ae5;
   --background-color: #f4f4fd;
   --backgrcolor: #ffffff;
 }
@@ -88,3 +89,15 @@ list-style: none;
 }
 /* portfolio sheet */
 /*  основна частина секція */
+.buttons{
+  list-style: none;
+}
+.button-portf{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--text-color-3);
+  background-color: var(#f4f4fd);
+}
