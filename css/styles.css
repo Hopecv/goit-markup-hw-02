@@ -68,6 +68,9 @@ line-height:1.5;
 .list-last-sec{
 list-style: none;
 }
+.list-last-item{
+  background-color: #ffffff;
+}
 .name{
   color: var(--text-color-2);
   font-weight: 700;
