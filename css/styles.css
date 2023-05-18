@@ -55,16 +55,18 @@ line-height:1.5;
 }
 /* наша команда */
 .our-team{
-  background-color: var(--background-color);
+  background-color: #f4f4fd;
 }
 .header-sec{
   color: var(--text-color-2);
-  font-weight: 700;
   font-size: 36px;
   text-align: center;
   line-height: 1.11;
-  letter-spacing: 00.02em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+.list-last-sec{
+list-style: none;
 }
 .name{
   color: var(--text-color-2);
