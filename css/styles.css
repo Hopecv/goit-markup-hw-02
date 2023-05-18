@@ -46,3 +46,41 @@ line-height:1.5;
 .list-text-item {
     flex-direction: column;
 }
+/* Що ми робимо */
+.header-sec{
+  color: var(--text-color-2);
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+}
+/* наша команда */
+
+.name{
+  color: var(--text-color-2);
+  font-weight: 700;
+  font-size: 20px;
+}
+.work{
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  line-height: 1.5;
+}
+/* низ */
+.fot-frame{
+  background-color: var(--text-color-2);
+  width: 1440px;
+height: 312px;
+left: 0px;
+top: 2280px;
+}
+.fot{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
+}
