@@ -50,14 +50,17 @@
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .button-first {
+    font-family: 'Roboto': sans-serif;
   background-color: var(--t-color--);
   color: var(--backgr-color);
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
   line-height: 1.5;
+  cursor: pointer;
 }
 /* наші принципи */
 .header-sec {
