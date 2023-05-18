@@ -10,7 +10,7 @@
     text-decoration: none;
 }
 .web {
-  font-family: 'Raleway': sans-serif;
+    font-family: 'Raleway', sans-serif;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--t-color--);
