@@ -1,12 +1,21 @@
 /* змінні */
+
 :root {
   --text-color: #434455;
   --backgr-color: #ffffff;
   --t-color--: #4d5ae5;
   --color--: #2e2f42;
-  --too-color--:#F4F4FD;
+  --too-color--: #f4f4fd;
+  --next-color--: #404bbf;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  background-color: var(--backgr-color);
+}
+
 /* шапка сайта */
+
 .link {
   text-decoration: none;
 }
@@ -21,7 +30,6 @@
   line-height: 1.17;
 }
 .studio {
-  font-family: "Raleway";
   color: var(--color--);
 }
 .list {
@@ -29,7 +37,7 @@
 }
 .list-it:hover,
 .list-it:focus {
-  color: #404bbf;
+  color: var(--next-color--);
 }
 .list-it {
   font-weight: 500;
@@ -53,13 +61,14 @@
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+
 /* кнопка */
+
 .first-sec {
   background-color: var(--color--);
 }
 .header-first {
   color: var(--backgr-color);
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -67,7 +76,7 @@
 }
 .button-first:hover,
 .button-first:focus {
-  background-color: #404bbf;
+  background-color: var(--next-color--);
 }
 .button-first {
   font-family: inherit;
@@ -79,25 +88,25 @@
   line-height: 1.5;
   cursor: pointer;
 }
+
 /* наші принципи */
 
 .header-third {
   color: var(--color--);
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .third-h {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+
 /* що ми робимо */
+
 .header-four {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -105,15 +114,16 @@
   color: var(--color--);
   text-align: center;
 }
+
 /* наша команда */
+
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--too-color--);
 }
 .four-list {
   background-color: var(--backgr-color);
 }
 .name {
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
@@ -122,14 +132,15 @@
   background-color: var(--backgr-color);
 }
 .job {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--text-color);
   background-color: var(--backgr-color);
   letter-spacing: 0.02em;
 }
+
 /*  низ*/
+
 .bott {
   background-color: var(--color--);
 }
@@ -139,23 +150,26 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.studioi{
-    color: #f4f4fd;
+.studioi {
+  color: var(--too-color--);
 }
+
+
 /* portfolio */
 /* основна частина */
-.button-portf{
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--t-color--);
-    background-color: var(--too-color--);
-    cursor: pointer
-    }
-    .button-portf:hover,
-    .button-portf:focus{
-        color: var(--backgr-color);
-        background-color: #404BBF ;
-    }
+
+.button-portf {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--t-color--);
+  background-color: var(--too-color--);
+  cursor: pointer;
+}
+.button-portf:hover,
+.button-portf:focus {
+  color: var(--backgr-color);
+  background-color: var(--next-color--);
+}
